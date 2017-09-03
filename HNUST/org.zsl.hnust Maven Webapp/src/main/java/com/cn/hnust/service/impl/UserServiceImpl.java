@@ -13,10 +13,11 @@ import com.cn.hnust.service.IUserService;
 public class UserServiceImpl implements IUserService {
 	@Resource
 	private IUserDao userDao;
-	@Override
+
 	public User getUserById(canshu cs) {
 		// TODO Auto-generated method stub
-		return this.userDao.selectByPrimaryKey(cs);
+		return null;
 	}
+	
 
 }
